@@ -9,7 +9,7 @@ Or just use the "Download ZIP" button at right.
 ###Files
 
 - Syllabus: https://github.com/asu-cis-355/course-info/blob/master/CIS355FALL2014syllabus.md
-- Schedule: https://github.com/asu-cis-capstone/course-info/blob/master/CIS355FALL2014schedule.pdf
+- Schedule: https://github.com/asu-cis-355/course-info/blob/master/CIS355FALL2014schedule.pdf
     - (click "View Raw" to get the PDF)
 
 All materials subject to change.
