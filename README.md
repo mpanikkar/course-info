@@ -16,5 +16,7 @@ All materials subject to change.
 
 ###TODO
 
-2. Upload week 1 slides
+1. Define assignments
+2. Create student team repositories
+
 
