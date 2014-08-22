@@ -13,7 +13,6 @@
 Course Materials at GitHub:  https://github.com/asu-cis-355/course-info 
 
 ####Course Description and Objectives
-
 CIS 355 serves as a hands-on introduction to data warehousing.  The three major chunks of CIS 355 will be:
 
 1. A brief introduction to relational databases and the design of transactional database systems. This technology is the foundation of a data warehouse and necessary to understand the source systems from which data warehouses draw data.
@@ -33,7 +32,7 @@ High-level objectives are that by the end of the course, students can:
 ####Course Materials 
 One textbook is required reading for this course:
 
-1. *The Elements of Scrum (Version 1.01)*, by Chris Sims & Hillary Louise Johnson.  Dymaxicon, 2011.   ISBN: 978-0-9828669-1-7   ($27 on Amazon)
+1. *The Data Warehouse Toolkit*, by Ralph Kimball & Margy Ross.  Wiley, 2013.   ISBN: 978-1-118-53080-1   ($35 on Amazon)
 
 ####Course Schedule
 Posted to GitHub at https://github.com/asu-cis-355/course-info/blob/master/CIS355FALL2014schedule.pdf
@@ -66,34 +65,36 @@ Grades will be assigned based on the following scale:
 ####Assignments
 Course assignments are weighted toward the final grade as follows:
 
-**Individual Assignments (25%)**
+**Individual Assignments (5%)**
 
 | Assignment | Due Date | Points |
 |:---------- |:--------:|:------:|
-| Information Radiator | Sept. 25 | 5 |
-| Professional Meetup Scavenger Hunt | Oct. 23 | 12 |
-| Personal Website | Nov. 25 | 8 |
+| Homework 1 | Oct. 1 | 5 |
 
-**Team Assignments (48%)**
 
-| Assignment | Due Date | Points |
-|:---------- |:--------:|:------:|
-| Version 0.1 | Sept. 9 | 5 |
-| Version 0.2 | Sept. 23 | 5 |
-| Version 0.3 | Oct. 2 | 5 |
-| Version 0.4 | Oct. 21 | 5 |
-| Version 0.5 | Nov. 4 | 5 |
-| Version 0.6 | Nov. 18 | 5 |
-| Version 1.0 | Dec. 2 | 8 |
-| Capstone Project Report | Dec. 4 | 10 |
-
-**Other Assessments (28%)**
+**Exams (35%)**
 
 | Assignment | Due Date | Points |
 |:---------- |:--------:|:------:|
-| Tech Talk | various | 8 |
-| CIS Critical Skills Assessment | Dec. 9-11 | 10 |
-| Client Satisfaction | Dec. 11 | 10|
+| Midterm Exam | Oct. 15 | 15 |
+| Final Exam | Dec. 10 | 20 |
+
+**Team Assignments (60%)**
+
+| Assignment | Due Date | Points |
+|:---------- |:--------:|:------:|
+| Repo setup | Sept. 3 | 5 |
+| ER diagram | Sept. 3 | 5 |
+| Database tests | Sept. 3 | 5 |
+| Transactional database | Sept. 3 | 5 |
+| Dimensional requirements 1 | Sept. 23 | 5 |
+| Dimensional requirements 2 | Oct. 2 | 5 |
+| Data transformations 1 | Oct. 21 | 5 |
+| Data transformations 2 | Nov. 4 | 5 |
+| Tech talk presentation | Nov. 18 | 10 |
+| Project report | Dec. 2 | 10 |
+
+
 
 
 ####Email/Online Communication 
@@ -101,18 +102,12 @@ One of my jobs is to help you deal with obstacles and get the resources or help 
 
 
 ####Examinations 
-There is one final exam at the end of the course:
-- CIS Critical Skills Assessment:  There are several skills that are critical and foundational to the discipline of Information Systems and the practices of systems analysis and design, and mastery of these skills is our expectation for anyone possessing a degree certifying completion of a BS in Computer Information Systems from the W.P. Carey School of Business at Arizona State University.  To assure mastery of these skills, students will be given a skills assessment exam wherein they are presented with a business case study and expected to answer a series of questions that assess their level of competence with:
-    - Identification of business information systems requirements and proposal of appropriate information systems solutions.
-    - Using established methodologies for analysis and design of proposed solutions.
-    - Selecting an appropriate project management methodology, explaining the critical issues and uncertainties that will determine project success, and communicating these issues in business terms.
-
-NOTE: This material is not an exam based only on CIS440 material, but instead is meant to evaluate the skills you have learned from the entire CIS undergraduate program.  You may bring any books or other references that you wish.
+There are two exams in the course, a midterm and a final.  I have not yet determined the formats.
 	
 ####Group Policies 
-You will form groups of four to six members for the course project.  It is important to be professional when dealing with the client, and to make sure you are working well with your teammates.  When forming teams, it is *strongly* recommended that you communicate frankly about expectations and identify any potential problems early on.  
+You will form groups of 3-4 members for the course project.  It is important to make sure you are working well with your teammates.  When forming teams, it is *strongly* recommended that you communicate frankly about expectations and identify any potential problems early on.  
 
-A student may be **kicked off the project team** either (1) if the client insists, or (2) if the other teammates unanimously agree to kick him for being disruptive or not contributing to the work, subject to my agreement.  If a student is kicked off his team, I may (at my discretion) propose an alternative project for the student to be able to complete the course.  It will likely be difficult and the grading will be subjective, so I strongly recommend not getting into this situation.  If you do perceive a problem to be developing, ask for help before it is too late.
+A student may be kicked off the project team by unanimous agreement of the other team members for being disruptive or not contributing to the work, subject to my agreement.  If a student is kicked off his team, I may (at my discretion) propose an alternative project for the student to be able to complete the course.  It will likely be difficult and the grading will be subjective, so I strongly recommend not getting into this situation.  If you do perceive a problem to be developing, ask for help before it is too late.
 
 ####Late Work
 Most assignments are due at the end of the day on the due date (i.e. midnight).  If I receive them late within the next 7 days, I'll accept them but take 25% off.  I usually don't accept work later than 7 days after the due date.  Work that is due to be delivered during class time (i.e. presentations) cannot be accepted late.  Contact me if you need an accommodation for some kind of emergency.
