@@ -28,6 +28,7 @@ High-level objectives are that by the end of the course, students can:
 - Understand the architecture and design of a complete DW/BI application
 - Use tools for extracting, transforming, and loading data into a data warehouse
 
+Note that the entire syllabus and schedule are likely to evolve over the next few months.
 
 ####Course Materials 
 One textbook is required reading for this course:
@@ -98,7 +99,7 @@ Course assignments are weighted toward the final grade as follows:
 
 
 ####Email/Online Communication 
-One of my jobs is to help you deal with obstacles and get the resources or help you need to succeed in this projects, so I encourage you to stay in communication with me.  When e-mailing me, please indicate in the subject line that it is for CIS 440 and which section you are in.  Be sure to sign it with your full name, and state your problem clearly.  You can expect me to check my e-mail at the beginning and end of the work day, but not necessarily on weekends or at night.  If you think you’ll need urgent help outside of the work week, let me know in advance.
+One of my jobs is to help you deal with obstacles and get the resources or help you need to succeed in this course, so I encourage you to stay in communication with me.  When e-mailing me, please indicate in the subject line that it is for CIS 355.  Be sure to sign it with your full name, and state your problem clearly.  You can expect me to check my e-mail at the beginning and end of the work day, but not necessarily on weekends or at night.  If you think you’ll need urgent help outside of the work week, let me know in advance.
 
 
 ####Examinations 
