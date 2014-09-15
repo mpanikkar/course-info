@@ -12,7 +12,8 @@ The assignment should include the following sections:
 
 Example:
 
-    This document describes the requirements for a database for a simple online auction site similar to eBay.  It includes buyers, sellers, items which fall into categories, and bids.
+    This document describes the requirements for a database for a simple online auction site similar to eBay.  
+    It includes buyers, sellers, items which fall into categories, and bids.
     
 **Business Rules**:  Simple statements about data definitions, relationships, and constraints which will inform database design.  These are written in plain English.  They should be clear and brief.  You should identify at least 15-20.
 
@@ -32,4 +33,4 @@ Examples:
 
 ---
 
-Upload the requirements document as a Markdown file (.md) and include the ER diagram as an image.  This will allow us to read it on GitHub and make changes easily.  More on Markdown syntax here:  https://help.github.com/articles/github-flavored-markdown
+Upload the requirements document to your GitHub repo as a Markdown file (.md) and include the ER diagram as an image.  This will allow us to read it on the web and make changes easily.  More on Markdown syntax here:  https://help.github.com/articles/github-flavored-markdown
