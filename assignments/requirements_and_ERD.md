@@ -2,7 +2,7 @@
 
 There are three major assignments in CIS 355.  Overviews follow.
 
-\**ER Diagram & Requirements (5pts) (due Sept. 17):** Document the requirements for your database in terms of "business rules" and draw an ER diagram for a database that reflects those requirements.  The files should be committed to your GitHub repo.
+**ER Diagram & Requirements (5pts) (due Sept. 17):** Document the requirements for your database in terms of "business rules" and draw an ER diagram for a database that reflects those requirements.  The files should be committed to your GitHub repo.
 
 ---
 
