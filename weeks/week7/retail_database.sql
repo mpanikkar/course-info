@@ -61,3 +61,8 @@ CREATE TABLE transxn (
     store           smallint         references store(storeid)
 );
 
+CREATE TABLE transxn_line (
+    transxn         integer         references transxn(transxnid),
+    product         char(10)        references product(sku),
+    quantity        smallint
+)
