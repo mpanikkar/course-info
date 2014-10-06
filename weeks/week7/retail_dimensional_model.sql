@@ -75,7 +75,7 @@ CREATE TABLE store_dim (
     store_state                     char(2),    -- or province
     store_zipcode                   char(6),    -- Canada zipcodes are 6 characters
     store_manager                   char(25),
-    store_region                    char(10),
+    store_region                    char(10)
 );
 
 
