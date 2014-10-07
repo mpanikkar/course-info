@@ -17,3 +17,22 @@ INSERT INTO store_dim ( store_number, store_name,
 	manager AS store_manager,
 	'America' AS store_region
 	FROM store;
+
+
+INSERT INTO product_dim ( sku, product_description, brand_description,
+		subcategory_description, category_description,
+		department_description )
+
+
+	select 
+	sku,
+	product.description AS product_description,
+	brandname AS brand_description,
+	C1.description AS subcategory_description,
+	C2.description AS category_description,
+	C3.description AS department_description
+	from product
+		join brand on product.brand=brand.brandid
+		join category C1 on product.category=C1.categoryid
+		join category C2 on C1.parent_cat=C2.categoryid
+		join category C3 on C2.parent_cat=C3.categoryid
