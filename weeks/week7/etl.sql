@@ -36,3 +36,27 @@ INSERT INTO product_dim ( sku, product_description, brand_description,
 		join category C1 on product.category=C1.categoryid
 		join category C2 on C1.parent_cat=C2.categoryid
 		join category C3 on C2.parent_cat=C3.categoryid
+
+
+
+
+
+
+INSERT INTO retail_fact
+
+select
+	--dimension keys
+	(SELECT date_key FROM date_dim WHERE date=transxndate) AS date_key,
+	(SELECT product_key FROM product_dim PD WHERE PD.sku=P.sku) AS product_key,
+	(SELECT store_key FROM store_dim WHERE store_number=transxn.store),
+	transxnid AS pos_transxn_number,
+	--fact columns
+	quantity AS sales_quantity,
+	unitprice AS regular_unit_price,
+	0.00 AS discount_unit_amount,
+	(unitprice) AS net_unit_price,
+	(unitprice*quantity) AS total_sales_dollar_amount,
+	0.00 AS total_discount_dollar_amount
+from transxn_line
+	join product P on transxn_line.product=P.sku
+	join transxn on transxn_line.transxn=transxn.transxnid
