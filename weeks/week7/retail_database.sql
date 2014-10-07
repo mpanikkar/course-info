@@ -17,6 +17,7 @@
 --  prevent deletion.
 
 DROP TABLE IF EXISTS product CASCADE;
+DROP TABLE IF EXISTS transxn_line CASCADE;
 DROP TABLE IF EXISTS brand CASCADE;
 DROP TABLE IF EXISTS category CASCADE;
 DROP TABLE IF EXISTS transxn CASCADE;
@@ -61,3 +62,9 @@ CREATE TABLE transxn (
     store           smallint         references store(storeid)
 );
 
+CREATE TABLE transxn_line (
+    transxn         integer         references transxn(transxnid),
+    product         char(10)        references product(sku),
+    quantity        smallint,
+    PRIMARY KEY (product,transxn)
+)
