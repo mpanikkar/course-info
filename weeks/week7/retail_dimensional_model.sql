@@ -59,7 +59,7 @@ CREATE TABLE product_dim (
     sku                             char(10),   -- a "natural key" from source system
     product_description             char(25),
     department_description          char(15),
-    brand_description               char(15),
+    brand_description               char(25),
     category_description            char(15),
     subcategory_description         char(15)
 );
