@@ -60,3 +60,27 @@ select
 from transxn_line
 	join product P on transxn_line.product=P.sku
 	join transxn on transxn_line.transxn=transxn.transxnid
+
+
+
+
+-- create dimensional data
+create view retail_dimensional_model as
+
+select 
+ pos_transaction_number, sales_quantity, regular_unit_price
+ discount_unit_amount, net_unit_price
+ total_sales_dollar_amount, total_discount_dollar_amount,
+ date, day_number_in_week,day_number_in_calendar_month,
+ day_number_in_calendar_year,calendar_week_number_in_year,
+ calendar_month_number_in_year,calendar_quarter,
+ calendar_year,day_of_week,calendar_month_name,full_date_description,
+ calendar_year_month,calendar_year_quarter,sku,product_description,
+ department_description,brand_description,category_description,
+ subcategory_description,store_name,store_street_address,
+ store_city,store_county,store_state,store_zipcode,store_manager,
+ store_region
+ from retail_fact RF
+  join date_dim DD on RF.date_key = DD.date_key
+  join product_dim PD on RF.product_key = PD.product_key
+  join store_dim SD on RF.store_key = SD.store_key

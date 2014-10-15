@@ -57,11 +57,11 @@ CREATE TABLE date_dim (
 CREATE TABLE product_dim (
     product_key                     serial      NOT NULL    PRIMARY KEY,
     sku                             char(10),   -- a "natural key" from source system
-    product_description             char(25),
-    department_description          char(15),
+    product_description             char(35),
+    department_description          char(25),
     brand_description               char(25),
-    category_description            char(15),
-    subcategory_description         char(15)
+    category_description            char(25),
+    subcategory_description         char(25)
 );
 
 -- store dimension
