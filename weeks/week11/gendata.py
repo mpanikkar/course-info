@@ -33,13 +33,19 @@ for i in range(10):
     order_month = random.choice(["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"])
     order_year = "2014"
     order_date = str(order_day) + "-" + order_month + "-" + order_year
-    sql = "INSERT INTO orders (order_id, order_date, customer_id) VALUES (" + str(ordernum) + ", '" + order_date + "', " + str(random.choice(custs)) + ");\n"
+    sql = "INSERT INTO orders (order_id, order_date, customer_id) VALUES (" + \
+          str(ordernum) + ", '" + \
+          order_date + "', " + \
+	  str(random.choice(custs)) + ");\n"
     f.write(sql)
 
     #now create a random number of items in each order
     num_items = random.randint(1,4)
     for j in range(num_items):
-        sql = "INSERT INTO order_line (order_id, product_id, ordered_quantity) VALUES (" + str(ordernum) + ", " + str(random.choice(prods)) + ", " + str(random.randint(1,10)) + ");\n"
+        sql = "INSERT INTO order_line (order_id, product_id, ordered_quantity) VALUES (" + \
+	      str(ordernum) + ", " + \
+              str(random.choice(prods)) + ", " + \
+	      str(random.randint(1,10)) + ");\n"
         f.write(sql)
 
 # note: a bug here is that the same item might be added to the order twice, 
