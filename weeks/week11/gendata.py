@@ -2,7 +2,7 @@
 # of the PVFC database
 
 
-# this part prints aa date in the correct way, for testing purposes:
+# this part prints a date in the correct way, for testing purposes:
 order_day = 3
 order_month = "Sep"
 order_year = "2014"
